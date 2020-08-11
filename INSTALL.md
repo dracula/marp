@@ -1,4 +1,4 @@
-### [X](http://link-to-x.com)
+### [Marp]()
 
 #### Install using Git
 
@@ -12,6 +12,17 @@ Download using the [GitHub .zip download](https://github.com/dracula/template/ar
 
 #### Activating theme
 
-1. Do this
-2. Then that
-3. Boom! It's working
+1. Add the `Dracula.css` file located in the Dracula directory to your marp project. 
+2. Once added it can be referenced from a marp source file by adding `theme: dracula` to the header.
+3. When using the marp-cli you must specify the theme you are using, to do so add `--theme dracula.css` to your command.
+
+##### Example:
+
+```
+marp --theme ./dracula/dracula.css  ./dracula/slides.md -o Dracula-1.0.0.pdf
+```
+
+
+
+
+
