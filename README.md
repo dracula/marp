@@ -20,7 +20,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 - [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
 - [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
 
-## Contributing
+## Creating your theme
 
 To create your own theme, just clone this repo, install a basic web server to test it easily and create a `.vscode/settings.json` in your project containing the link to your `css` file.
 
@@ -44,6 +44,12 @@ cat <<EOF > .vscode/settings.json
 }
 EOF
 code .
+```
+
+Update your theme in your slide marp header with:
+
+```yaml
+theme: mytheme
 ```
 
 You can visualize your modifications in vscode on your markdown for Marp with `ctrl k+v`. If you need to refresh, you may need to restart vscode.
