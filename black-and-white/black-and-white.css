@@ -13,10 +13,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900|IBM+Plex+Sans:400,700");
 
 :root {
-  --dracula-background: #282a36;
+  --dracula-background: #000000;
   --dracula-current-line: #44475a;
-  --dracula-foreground: #f8f8f2;
+  --dracula-foreground: #ffffff;
   --dracula-comment: #adb4ca;
+	--dracula-content: #f8f8f8;
   --dracula-cyan: #8be9fd;
   --dracula-green: #50fa7b;
   --dracula-orange: #ffb86c;
@@ -57,7 +58,7 @@
 .hljs-section,
 .hljs-link,
 .hljs-class {
-    color: var(--dracula-cyan);
+    color: var(--dracula-content);
 }
 
 
@@ -170,7 +171,7 @@ blockquote {
 ul > li,
 ol > li {
   margin: 0.3em 0 0 0;
-  color:  var(--dracula-cyan);
+  color:  var(--dracula-content);
 }
 ul > li > p,
 ol > li > p {
